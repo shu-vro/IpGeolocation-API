@@ -25,6 +25,8 @@ Free IP API provides country, city, state, province, local currency, latitude an
 
 You can know more about These following this [link.](https://ipgeolocation.io/documentation.html)
 
+[Sign up today.](https://ipgeolocation.io/signup.html)
+
 # ⚠️CAUTION:
 
 This is completely `Educational` Repo and not to mean any pranks. This takes `Ip Addresses` as inputs even yours. If you can't trust me or this api, better of leaving It.
