@@ -11,7 +11,7 @@ Used Links: | https://api.ipgeolocation.io/user-agent?apiKey=${api_key}&ip=${inp
 Used Links: | https://www.google.com.bd/maps/@${data.latitude},${data.longitude},251m/data=!3m1!1e3 |
 
 ## About API: 
-[IpGeolocation.io](https://ipgeolocation.io/) is a free api which provides access to ip address and fetches informations about the users. 
+[IpGeolocation.io](https://ipgeolocation.io/) is a free https protocol based api which provides access to ip address and fetches informations about the users. 
 
 ### They provide:
 Free IP API provides country, city, state, province, local currency, latitude and longitude, company detail, ISP lookup, language, zip code, country calling code, time zone, current time, sunset and sunrise time, moonset and moonrise time from any IPv4 and IPv6 address in REST, JSON and XML format over HTTPS.
@@ -27,4 +27,4 @@ You can know more about These following this [link.](https://ipgeolocation.io/do
 
 # ⚠️CAUTION:
 
-This is completely `Educational` Repo and not to mean any pranks. This Takes `Ip Addresses` as inputs even yours. If you can't trust me, better of leaving It.
+This is completely `Educational` Repo and not to mean any pranks. This takes `Ip Addresses` as inputs even yours. If you can't trust me or this api, better of leaving It.
