@@ -1,7 +1,7 @@
 # IpGeolocation-API
 IpGeolocation API &lt;HTML> {CSS} (JavaScript)
 
-This repo is based on an `API (Application Programing Interface)` Which can find people by given by their IP addresses. 
+This repo is based on an `API (Application Programing Interface)` Which can find people by giving their IP addresses. 
 
 Name | Information
 ---------- | ----------- |
