@@ -16,7 +16,7 @@ Used Links: | https://www.google.com.bd/maps/@${data.latitude},${data.longitude}
 ### They provide:
 Free IP API provides country, city, state, province, local currency, latitude and longitude, company detail, ISP lookup, language, zip code, country calling code, time zone, current time, sunset and sunrise time, moonset and moonrise time from any IPv4 and IPv6 address in REST, JSON and XML format over HTTPS.
 
-## They have 3 types of fetchable services. 
+## They have 5 types of fetchable services. 
 * Accurate IP Geolocation API
 * Astronomy API
 * Time Zone API
