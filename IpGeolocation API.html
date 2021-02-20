@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1." />
+        <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+        <meta name="keywords" content="Document" />
+        <meta name="description" content="Your Description..." />
+        <title>Document</title>
+        <link rel="stylesheet" href="resources/css/style.css" />
+        <link rel="shortcut icon" href="resources/img/favicon.ico" type="image/x-icon" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" />
+    </head>
+    <body>
+        <div class="inp_field">
+            <input type="text" id="input" required>
+            <button id="search"><i class="fas fa-search"></i></button>
+        </div>
+        <input type="text" id="search_info">
+        <table border="1" cellspacing="1">
+            <tr>
+                <th>Category:</th>
+                <th>Value</th>
+            </tr>
+            <tr class="fields">
+                <td>IP</td>
+                <td id="ip">Failed To Fetch</td>
+            </tr>
+            <tr class="fields">
+                <td>Host</td>
+                <td id="host">Failed To Fetch</td>
+            </tr>
+            <tr>
+                <th colspan="2">Position</th>
+            </tr>
+            <tr class="fields">
+                <td>Continent Name</td>
+                <td id="continent_name">Failed To Fetch</td>
+            </tr>
+            <tr class="fields">
+                <td>Country Name</td>
+                <td id="country_name">Failed To Fetch</td>
+            </tr>
+            <tr class="fields">
+                <td>Country Capital</td>
+                <td id="country_capital">Failed To Fetch</td>
+            </tr>
+            <tr class="fields">
+                <td>State</td>
+                <td id="state_prov">Failed To Fetch</td>
+            </tr>
+            <tr class="fields">
+                <td>District</td>
+                <td id="district">Failed To Fetch</td>
+            </tr>
+            <tr class="fields">
+                <td>City</td>
+                <td id="city">Failed To Fetch</td>
+            </tr>
+            <tr class="fields">
+                <td>Latitude</td>
+                <td id="latitude">Failed To Fetch</td>
+            </tr>
+            <tr class="fields">
+                <td>Longitude</td>
+                <td id="longitude">Failed To Fetch</td>
+            </tr>
+            <tr>
+                <th colspan="2">Other Information</th>
+            </tr>
+            <tr class="fields">
+                <td>Zip Code</td>
+                <td id="zipcode">Failed To Fetch</td>
+            </tr>
+            <tr class="fields">
+                <td>Calling Code</td>
+                <td id="calling_code">Failed To Fetch</td>
+            </tr>
+            <tr class="fields">
+                <td>Country Tld</td>
+                <td id="country_tld">Failed To Fetch</td>
+            </tr>
+            <tr class="fields">
+                <td>Languages</td>
+                <td id="languages">Failed To Fetch</td>
+            </tr>
+            <tr class="fields">
+                <td>Country Flag</td>
+                <td><img id="country_flag"></td>
+            </tr>
+            <tr class="fields">
+                <td>Geo Name Id</td>
+                <td id="geoname_id">Failed To Fetch</td>
+            </tr>
+            <tr class="fields">
+                <td>Internet Service Provider</td>
+                <td id="isp">Failed To Fetch</td>
+            </tr>
+            <tr class="fields">
+                <td>Organization</td>
+                <td id="organization">Failed To Fetch</td>
+            </tr>
+            <tr class="fields">
+                <td>Autonomous System Number</td>
+                <td id="asn">Failed To Fetch</td>
+            </tr>
+            <tr>
+                <th colspan="2">Currency Info</th>
+            </tr>
+            <tr class="fields">
+                <td>Currency Name</td>
+                <td id="currency_name">Failed To Fetch</td>
+            </tr>
+            <tr class="fields">
+                <td>Currency Code</td>
+                <td id="currency_code">Failed To Fetch</td>
+            </tr>
+            <tr class="fields">
+                <td>Currency Symbol</td>
+                <td id="currency_symbol">Failed To Fetch</td>
+            </tr>
+            <tr>
+                <th colspan="2">Time Info</th>
+            </tr>
+            <tr class="fields">
+                <td>Time Zone Name</td>
+                <td id="time_zone_name">Failed To Fetch</td>
+            </tr>
+            <tr class="fields">
+                <td>Time</td>
+                <td id="time_zone_time">Failed To Fetch</td>
+            </tr>
+            <tr class="fields">
+                <td>Time Unix</td>
+                <td id="time_zone_current_time_unix">Failed To Fetch</td>
+            </tr>
+
+
+            <tr>
+                <th colspan="2">Browser</th>
+            </tr>
+            <tr class="fields">
+                <td>Browser Name</td>
+                <td id="browser_name">Failed To Fetch</td>
+            </tr>
+            <tr class="fields">
+                <td>Browser Type</td>
+                <td id="browser_type">Failed To Fetch</td>
+            </tr>
+            <tr class="fields">
+                <td>Browser Version</td>
+                <td id="browser_version">Failed To Fetch</td>
+            </tr>
+            <tr>
+                <th colspan="2">Device</th>
+            </tr>
+            <tr class="fields">
+                <td>Device Name</td>
+                <td id="device_name">Failed To Fetch</td>
+            </tr>
+            <tr class="fields">
+                <td>Device Type</td>
+                <td id="device_type">Failed To Fetch</td>
+            </tr>
+            <tr class="fields">
+                <td>Device Brand</td>
+                <td id="device_brand">Failed To Fetch</td>
+            </tr>
+            <tr class="fields">
+                <td>Device CPU</td>
+                <td id="device_CPU">Failed To Fetch</td>
+            </tr>
+            <tr>
+                <th colspan="2">Engine</th>
+            </tr>
+            <tr class="fields">
+                <td>Engine Name</td>
+                <td id="engine_name">Failed To Fetch</td>
+            </tr>
+            <tr class="fields">
+                <td>Engine Type</td>
+                <td id="engine_type">Failed To Fetch</td>
+            </tr>
+            <tr class="fields">
+                <td>Engine Version</td>
+                <td id="engine_version">Failed To Fetch</td>
+            </tr>
+            <tr>
+                <th colspan="2">Operating System</th>
+            </tr>
+            <tr class="fields">
+                <td>Operating System Name</td>
+                <td id="os_name">Failed To Fetch</td>
+            </tr>
+            <tr class="fields">
+                <td>Operating System Type</td>
+                <td id="os_type">Failed To Fetch</td>
+            </tr>
+            <tr class="fields">
+                <td>Operating System Version</td>
+                <td id="os_version">Failed To Fetch</td>
+            </tr>
+        </table>
+        <a href="#" id="goto_location" target="_blank">Go To Location</a>
+        <script src="resources/js/main.js"></script>
+    </body>
+</html>

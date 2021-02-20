@@ -1,0 +1,181 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    flex-direction: column;
+    background: #230525;
+}
+
+.inp_field {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 40px 0 20px;
+}
+
+#input {
+    position: relative;
+    padding: 5px 20px;
+    border-radius: 100px 0 0 100px;
+    border: none;
+    width: 280px;
+    height: 35px;
+    font-size: 25px;
+    outline: none;
+}
+
+#search::after {
+    content: 'Ip Address';
+    position: absolute;
+    top: 50%;
+    left: 18px;
+    transform: translate(0, -50%);
+    font-weight: 500;
+    font-size: 25px;
+    color: #555;
+    z-index: 100;
+    pointer-events: none;
+    transition: .4s ease-out;
+}
+
+#input:valid ~ #search::after {
+    top: -10px;
+    color: white;
+    background: dodgerblue;
+    border-radius: 100px;
+    padding: 0 5px;
+}
+
+#search {
+    height: 45px;
+    width: 45px;
+    outline: none;
+    border: none;
+    font-size: 25px;
+    background: #c25832;
+    border-radius: 0 100px 100px 0;
+    cursor: pointer;
+    color: white;
+    transition: .3s ease-in-out;
+}
+
+#search:hover {
+    background: #0ca5eb;
+}
+
+table {
+    max-width: 70%;
+    width: auto;
+    color: #c9d1d9;
+    cursor: zoom-in;
+    margin-bottom: 100px;
+}
+
+table tr {
+    transition: .25s linear;
+}
+
+table th {
+    font-size: 2em;
+}
+
+table td {
+    padding: 10px 20px;
+}
+
+table tr:hover {
+    background: #2ff47e8f;
+    color: #555;
+    font-weight: 600;
+}
+
+#search_info {
+    position: fixed;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 40px;
+    padding: 10px 30px;
+    width: 350px;
+    box-shadow: 0 0 0 12000px #544141d5;
+    outline: none;
+    border: none;
+    border-radius: 20px;
+    display: none;
+}
+
+.button_container {
+    position: relative;
+}
+
+#goto_location {
+    position: relative;
+    font-size: 40px;
+    padding: 10px 15px;
+    margin: 30px 0;
+    outline: none;
+    border: none;
+    background: rgba(255, 255, 255, .05);
+    text-decoration: none;
+    color: white;
+    border-top: 2px solid rgba(255, 255, 255, .1);
+    border-bottom: 2px solid rgba(255, 255, 255, .1);
+    box-shadow: 0 15px 35px rgba(0, 0, 0, .2);
+    border-radius: 100px;
+    overflow: hidden;
+    transition: .25s;
+}
+
+#goto_location:hover {
+    letter-spacing: 3px;
+}
+
+#goto_location::before {
+    content: '';
+    position: absolute;
+    bottom: -10%;
+    left: 50%;
+    transform: translate(-50%, 0%);
+    width: 30px;
+    height: 40px;
+    background: #f00;
+    filter: blur(10px);
+    z-index: -1;
+    transition: .5s;
+}
+
+#goto_location::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 30px;
+    height: 100%;
+    background: rgba(255, 255, 255, 0.199);
+    transform: skew(45deg) translate(-20px, 0);
+    transition: .5s;
+}
+
+#goto_location:hover::after {
+    transform: skew(45deg) translate(400px, 0);
+}
+
+#goto_location:hover:before {
+    height: 80%;
+    bottom: 0;
+    width: 80%;
+    border-radius: 30px;
+    transition-delay: .25s;
+}
