@@ -30,4 +30,4 @@ You can know more about These following this [link.](https://ipgeolocation.io/do
 
 # ⚠️CAUTION:
 
-This is completely `Educational` Repo and not to mean any pranks. This takes `Ip Addresses` as inputs even yours. If you can't trust me or this api, better of leaving It.
+This is completely `Educational` Repo and not promote or support any mischief. This takes `Ip Addresses` as inputs even yours. If you can't trust me or this api, better of leaving It.
