@@ -43,7 +43,11 @@ const input = document.getElementById("input"),
     os_type = document.getElementById("os_type"),
     os_version = document.getElementById("os_version");
 
-const api_key = "37bf20fe4b2f4874b335d0a6199e364a";
+const api_key = "";     // Paste your api key here.
+if(api_key == "") {
+    alert("Insert API key at the api_key variable in main.js");
+}
+
 function getInfo() {
     let link_1, link_2, link_3;
     if (input.value) {
